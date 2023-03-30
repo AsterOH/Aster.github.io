@@ -1,0 +1,40 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.Header{
+  background-color: rgb(76, 1, 76);
+}
+
+
+.ps{
+  position: relative;
+}
+
+
+.info{
+  background-color: purple;
+}
+
+.Name{
+  text-align: center;
+}
+
+.ContactInfo{
+  list-style-type: none;
+}
+
+
+.waveText{
+  margin-top: 300px;
+  text-align: center;
+}
+
+.waveText span{
+  background-color: aquamarine;
+  
+}
