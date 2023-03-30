@@ -7,7 +7,12 @@ var EnemyPointsCounter = 0;
 var EnemyPoints = document.querySelector(".EnemyPoints");
 var Winner = document.querySelector(".Winner");
 var PlayerImg = document.querySelector(".PlayerImg");
-
+addEventListener("load",()=>{
+    EnemyImg.src = "Rock.png"
+    EnemyImg.style.transform = "scaleX(1)";
+    PlayerImg.src = "Rock.png";
+    PlayerImg.style.transform = "scaleX(-1)";
+});
 
 function RockPaperScisors(e){
     var random = Math.floor(Math.random() * 3 + 1);
