@@ -1,40 +1,48 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.Header{
+.Header {
   background-color: rgb(76, 1, 76);
 }
 
-
-.ps{
+.ps {
   position: relative;
 }
 
-
-.info{
+.info {
   background-color: purple;
 }
 
-.Name{
+.Name {
   text-align: center;
 }
 
-.ContactInfo{
+.ContactInfo {
   list-style-type: none;
 }
 
-
-.waveText{
+.waveText {
   margin-top: 300px;
   text-align: center;
 }
 
-.waveText span{
+.waveText span {
   background-color: aquamarine;
-  
+}
+
+.Project {
+  width: 48%;
+  padding-bottom: 1%;
+}
+.Project a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.Project img {
+  width: 100%;
 }
